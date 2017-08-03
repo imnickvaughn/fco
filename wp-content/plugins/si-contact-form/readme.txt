@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Akismet, captcha, contact, contact form, form, mail, email, spam, multilingual
 Requires at least: 3.4.2
 Tested up to: 4.8
-Stable tag: 4.0.53
+Stable tag: 4.0.54
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -263,6 +263,10 @@ You can enable or disable this option in the "Scheduling" tab of your contact fo
 If you have additional questions visit [vCita Support Page](http://support.vcita.com)
 
 == Changelog ==
+
+= 4.0.54 - 28 July 2017 =
+* I'm starting to update all the language files to reflect the new strings. Please submite your localization!
+* Fixed a regression bug introduced as a typo during the first round of code clean-up.
 
 = 4.0.53 - 27 July 2017 =
 * Code clean-up for improved readability and maintainability. This will help me add new features more quickly.
