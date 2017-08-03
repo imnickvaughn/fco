@@ -8,7 +8,7 @@ Author URI: http://www.642weather.com/weather/scripts.php
 Text Domain: si-contact-form
 Domain Path: /languages
 License: GPLv2 or later
-Version: 4.0.53
+Version: 4.0.54
 */
 
 /*

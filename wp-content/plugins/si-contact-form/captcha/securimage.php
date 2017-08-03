@@ -1142,7 +1142,7 @@ if ( !class_exists( 'pre_spam_checker' ) ) {
 		public static function parse_output() {
 			$data = self::get_option();
 
-			if ( $data === false || !is_array( $data ) ) {
+			if ( $data === false || !is_array( $data ) || !is_object( $GLOBALS[ 'wp' ] ) ) {
 				ob_end_flush();
 				return 0;
 			}
