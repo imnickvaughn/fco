@@ -23,7 +23,7 @@
 		
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<a href="<?php echo esc_url( __( 'http://opcaret.com/', 'sydney' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'sydney' ), 'OPCaret' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://flowercityonline.com/', 'sydney' ) ); ?>"><?php printf( __( '%s', 'sydney' ), 'Flower City Online LLC &copy 2017' ); ?></a>
 			
 <!--			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %2$s by %1$s.', 'sydney' ), 'aThemes', '<a href="https://athemes.com/theme/sydney" rel="designer">Sydney</a>' ); ?>-->
