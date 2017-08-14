@@ -43,7 +43,7 @@ CREATE TABLE `wp_term_taxonomy` (
 
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,3),(2,2,'nav_menu','',0,5),(3,3,'category','',0,3),(4,4,'category','',0,10),(5,5,'category','',0,6),(6,6,'category','',0,4),(7,7,'category','',0,0),(8,8,'category','',0,1),(9,9,'category','',0,4),(10,10,'category','',0,6),(11,11,'nav_menu','',0,4);
+INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'nav_menu','',0,5),(3,3,'category','',0,3),(4,4,'category','',0,10),(5,5,'category','',0,7),(6,6,'category','',0,4),(7,7,'category','',0,0),(8,8,'category','',0,2),(9,9,'category','',0,1),(10,10,'category','',0,5),(11,11,'nav_menu','',0,4);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-08-09 12:50:33
+-- Dump completed on 2017-08-14 19:17:24
