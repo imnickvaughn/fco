@@ -7,6 +7,7 @@
  * @package Sydney
  */
 ?><!DOCTYPE html>
+
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -20,9 +21,11 @@
 <?php endif; ?>
 
 <?php wp_head(); ?>
+
+
 </head>
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Play" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Lato:100" rel="stylesheet">
 
 <body <?php body_class(); ?>>
 
@@ -33,6 +36,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sydney' ); ?></a>
 
 	<?php do_action('sydney_before_header'); //Hooked: sydney_header_clone() ?>
+
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-wrap">
@@ -51,6 +55,7 @@
 					<nav id="mainnav" class="mainnav" role="navigation">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
 					</nav><!-- #site-navigation -->
+					<h5 style="text-align: center"><br>Call Us! (585) HUGS-TAO  </h5>
 				</div>
 				</div>
 			</div>
@@ -75,3 +80,4 @@
 	<div id="content" class="page-wrap">
 		<div class="container content-wrapper">
 			<div class="row">	
+			

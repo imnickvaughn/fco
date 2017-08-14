@@ -7,6 +7,7 @@
 
 get_header(); ?>
 
+
 	<?php do_action('sydney_before_content'); ?>
 
 	<div id="primary" class="content-area col-md-9 <?php echo sydney_blog_layout(); ?>">
