@@ -42,10 +42,18 @@
 		<div class="header-wrap">
             <div class="container">
                 <div class="row">
-				<div class="col-md-4 col-sm-8 col-xs-12">
+				
+	        
+	         <!-- #site-logo -->
+	        <div class="col-md-4 col-sm-8 col-xs-12">
 		        <?php if ( get_theme_mod('site_logo') ) : ?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img class="site-logo" src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img class="site-logo" src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" />
+   
+       
+   
+	        </a>
 		        <?php else : ?>
+		        
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>	        
 		        <?php endif; ?>
